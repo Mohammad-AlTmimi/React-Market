@@ -1,8 +1,12 @@
-import React from "react";
-import "../style/Header.css";
+  import React from "react";
+  import "../style/Header.css";
 
-const Header: React.FC = () => {
-  return <div className="header">Vite Store.com</div>;
-};
+  const Header: React.FC = () => {
+    return (
+      <header className="header">
+        <h1>Vite Store.com</h1>
+      </header>
+    );
+  };
 
-export default Header;
+  export default Header;

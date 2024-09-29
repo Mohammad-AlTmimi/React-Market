@@ -19,6 +19,7 @@ body {
 .card {
     width: 18rem;
     margin-bottom: 20px;
+    margin-top: 20px;
     transition: transform 0.2s;
 }
 
